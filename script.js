@@ -5,7 +5,7 @@ function convertToBinary() {
         document.getElementById("binaryResult");
     if (input === "") {
         result.innerHTML =
-        "Please enter a valid decimal number";
+    "Please enter a valid decimal number";
         return;
     }
     let decimal = parseInt(input);
